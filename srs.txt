@@ -4,6 +4,7 @@ For <Subsystem or Feature>
 
 
 Version <1.0>
+CHANGING VERSION to 2.0
 
 
 [Note:  Text enclosed in square brackets and displayed in blue italics (style=InfoBlue) is included to provide guidance to the author and should be deleted before publishing the document. A paragraph entered following this style will automatically be set to normal (style=Body Text).]     
@@ -79,12 +80,12 @@ Modern Software Requirements Specification
 [Survey description of the use-case model.]
 2.1.3	Use-Case Model Hierarchy 
 [This section presents the use-case packages hierarchically, explains the dependencies among them, and shows the content of each package recursively. If the model has several levels of packages, those at the top-level are presented first. The packages within these are presented next, and so on, all the way down to the packages at the bottom of the hierarchy. For each package include: 
-ï	The Name. 
-ï	A Brief Description explaining the package's function and role in the system. The description must be understandable to any developer who wants to use the package. 
-ï	A list of the use cases owned by the package, including the name and brief description of each use case. 
-ï	A list of actors owned by the package, including the name and brief description of each actor. 
-ï	A list of relationships owned by the package, including the name and brief description of each relationship. 
-ï	A list of the packages directly owned by the package, with each package presented in the same hierarchical manner as above]
+‚Ä¢	The Name. 
+‚Ä¢	A Brief Description explaining the package's function and role in the system. The description must be understandable to any developer who wants to use the package. 
+‚Ä¢	A list of the use cases owned by the package, including the name and brief description of each use case. 
+‚Ä¢	A list of actors owned by the package, including the name and brief description of each actor. 
+‚Ä¢	A list of relationships owned by the package, including the name and brief description of each relationship. 
+‚Ä¢	A list of the packages directly owned by the package, with each package presented in the same hierarchical manner as above]
 2.1.4	Diagrams of the Use-Case Model
 [Diagrams, primarily use-case diagrams, of the entire use-case model are included here.]
 2.2	Assumptions and Dependencies
@@ -100,29 +101,29 @@ Where application development tools (requirements tools, modeling tools, etc) ar
 [The requirement description.]
 3.3	Usability 
 [This section should include all of those requirements that affect usability. Examples:
-ï	Specify the required training time for a normal users and power users to become productive at particular operations.
-ï	Specify measurable task times for typical tasks, or
-ï	Base usability requirements of the new system on other systems that the users know and like.
-ï	Specify requirements to conform to common usability standards ñ e.g., IBMís CUA standards, or the GUI standards published by Microsoft for Windows 95.]
+‚Ä¢	Specify the required training time for a normal users and power users to become productive at particular operations.
+‚Ä¢	Specify measurable task times for typical tasks, or
+‚Ä¢	Base usability requirements of the new system on other systems that the users know and like.
+‚Ä¢	Specify requirements to conform to common usability standards ‚Äì e.g., IBM‚Äôs CUA standards, or the GUI standards published by Microsoft for Windows 95.]
 3.3.1	<Usability Requirement One>
 The requirement description.
 3.4	Reliability 
 [Requirements for reliability of the system should be specified here. Suggestions:
-ï	Availability ñ specify % of time available ( xx.xx%), hours of use, maintenance access, degraded mode operations etc.
-ï	Mean Time Between Failures (MTBF) ñ this is usually specified in hours, but it could also be specified in terms of days, months, or years.
-ï	Mean Time To Repair (MTTR) ñ how long is the system allowed to be out of operation after it has failed?
-ï	Accuracy ñ specify precision (resolution) and accuracy (by some known standard) that is required in the systems output.
-ï	Maximum bugs or defect rate ñ usually expressed in terms of bugs/KLOC (thousands of lines of code), or bugs per function-point.
-ï	Bugs or defect rate ñ categorized in terms of minor, significant, and critical bugs: the requirement(s) must define what is meant by a ìcriticalî bug (e.g., complete loss of data, complete inability to use certain parts of the functionality of the system).]
+‚Ä¢	Availability ‚Äì specify % of time available ( xx.xx%), hours of use, maintenance access, degraded mode operations etc.
+‚Ä¢	Mean Time Between Failures (MTBF) ‚Äì this is usually specified in hours, but it could also be specified in terms of days, months, or years.
+‚Ä¢	Mean Time To Repair (MTTR) ‚Äì how long is the system allowed to be out of operation after it has failed?
+‚Ä¢	Accuracy ‚Äì specify precision (resolution) and accuracy (by some known standard) that is required in the systems output.
+‚Ä¢	Maximum bugs or defect rate ‚Äì usually expressed in terms of bugs/KLOC (thousands of lines of code), or bugs per function-point.
+‚Ä¢	Bugs or defect rate ‚Äì categorized in terms of minor, significant, and critical bugs: the requirement(s) must define what is meant by a ‚Äúcritical‚Äù bug (e.g., complete loss of data, complete inability to use certain parts of the functionality of the system).]
 3.4.1.1	<Reliability Requirement One>
 [The requirement description.]
 3.5	Performance
 [The performance characteristics of the system should be outlined in this section. Include specific response times. Where applicable, reference related Use Cases by name.
-ï	Response time for a transaction (average, maximum)
-ï	Throughput (e.g., transactions per second)
-ï	Capacity (e.g., the number of customers or transactions the system can accommodate)
-ï	Degradation modes (what is the acceptable mode of operation when the system has been degraded in some manner)
-ï	Resource utilization: memory, disk, communications, etc.]
+‚Ä¢	Response time for a transaction (average, maximum)
+‚Ä¢	Throughput (e.g., transactions per second)
+‚Ä¢	Capacity (e.g., the number of customers or transactions the system can accommodate)
+‚Ä¢	Degradation modes (what is the acceptable mode of operation when the system has been degraded in some manner)
+‚Ä¢	Resource utilization: memory, disk, communications, etc.]
 3.5.1	<Performance Requirement One>
 [The requirement description.]
 3.6	Supportability
