@@ -1,3 +1,0 @@
-# kaBaLi
-RAJINI
-#muDiYuMAaaa
